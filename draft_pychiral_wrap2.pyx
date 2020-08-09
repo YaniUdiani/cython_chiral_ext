@@ -25,7 +25,7 @@ cdef extern: #pull from external source: e.g header file containing external fun
 
 def chiral_pot(int nx1, int ny1, int nz1, int nx2, int ny2, int nz2, int nx3, int ny3, int nz3,
     int nx4, int ny4, int nz4, int m1, int m2, int m3, int m4, int t1, int t2, int t3, int t4, double L,
-    double twistx, double twisty, double twistz)
+    double twistx, double twisty, double twistz):
 
     cdef double matel_real, matel_im #declare matrix elements with ctype
 
